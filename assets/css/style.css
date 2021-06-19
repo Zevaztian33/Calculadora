@@ -1,0 +1,44 @@
+body{
+    font-family: 'Press Start 2P', cursive;
+    background: rgb(214,143,56);
+    background: linear-gradient(90deg, rgba(214,143,56,1) 0%, rgba(121,110,9,1) 50%, rgba(164,255,0,1) 100%);
+}
+h1{
+    text-align: center;
+}
+.calculadora{
+    display:block;
+    margin:0 auto;
+    padding:20px;
+    background: rgb(56,211,214);
+    background: radial-gradient(circle, rgba(56,211,214,1) 0%, rgba(9,60,121,1) 50%, rgba(183,0,255,1) 100%);
+    width:350px;
+    height:500px;
+    border-radius: 8px;
+}
+.calculadora td button{
+    display:block;
+    width:70px;
+    height: 70px;
+    font-size: 25px;
+    font-family: 'Press Start 2P', cursive;
+    border-radius: 8px;
+}
+#creditos{
+    display:block;
+    padding-top:20px;
+    color:#fff;
+    text-align: center;
+    width:300px;
+}
+#resultado{
+    display:block;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+    width:300px;
+    height: 100px;
+    line-height: 100px;
+    background-color:#fff;
+    border-radius: 8px;
+}
